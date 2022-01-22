@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #e3e5e8;
+}
+
+#heading{
+    text-align: center;
+    margin-top:30px;
+}
+
+
+
+
+
+/* STANDARD NAVBAR */
+
+
+#navbar{
+    background-color: #6200ee;
+    height:50px;
+    width:600px;
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    left:400px;
+    top:200px;
+}
+
+#line1,#line2{
+    border-bottom: 1px solid white;
+    width:20px;
+
+}
+
+
+#brand{
+    display:flex;
+    flex-direction: row;
+    color:white;
+    margin-top:10px;
+}
+
+
+#brand-name p{
+
+    line-height:25px;
+    font-size: 20px;
+    margin-left:10px;
+}
+
+
+#burger-menu{
+    margin-left:10px;
+    cursor: pointer;
+}
+
+
+
+#menu-items{
+    display: flex;
+   
+}
+
+
+#menu-items div{
+
+    margin-left:20px;
+    margin-top:10px;
+    cursor: pointer;
+}
+
+
+#menu-items #print{
+    margin-right:-10px;
+}
+
+
+
